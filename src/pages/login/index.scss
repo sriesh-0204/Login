@@ -1,0 +1,55 @@
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-container {
+        width: 30%;
+    }
+
+    &-input {
+        margin-bottom: 1.2rem;
+    }
+    &-checkbox{
+        margin-top: 1rem;
+    }
+    input {
+        border: unset;
+    }
+    input:focus-visible {
+        outline: none;
+      }
+
+    &-text {
+        border: 1px solid #8080806b;
+        padding: 6px;
+        border-radius: 4px;
+    }
+
+    &-label {
+        margin-bottom: 0.5rem;
+    }
+    &-submit {
+        margin-top: 1rem;
+        width: 100%;
+        background-color: #caeffb;
+        border: unset;
+        padding: 10px;
+        border-radius: 4px;
+        color: darkblue;
+    }
+
+    .password-container {
+        position: relative;
+    }
+
+    .password-icon {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+}
